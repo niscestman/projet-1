@@ -1,0 +1,52 @@
+ul{
+    position: fixed;
+    top: -3%;
+    left: 0%;
+    right: 0%;
+    z-index: 20%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding: 15px 20%;
+    justify-content: space-between;
+    height: 50px;
+}
+li {
+    list-style: none;
+    margin: 0,5px;
+}
+li a{
+    font-size: 16px;
+    color: red;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0,2s;
+}
+li :hover {
+    color: black;
+}
+button {
+    background-color: red;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+    color: red;
+}
+form.example{
+    display: table;
+}
+fieldset{
+    display: table;
+    color: red;
+}
+label, input{ 
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+
+    
+
